@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Detalles del producto</title>
+  <link rel="stylesheet" href="./main.css">
+  <script src="https://kit.fontawesome.com/6b22c9e604.js" crossorigin="anonymous"></script> <!-- Enlace de fontawesome -->
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 18px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="header"> <!-- Encabezado -->
+    <nav class="nav">
+        <a href="#" aria-label="logo_Halcomercio" class="logo "><!-- Logo -->
+            <img alt="" src="./images/halcomercio1.png" class="logo">
+        </a> 
+
+        <!-- Menu con Bars -->
+        <button class="nav-toggle" aria-label="Abrir menú"> 
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <ul class="nav-menu"> <!-- Lista de las secciones -->
+            <li class="nav-menu-item">
+                <a href="#carreras" class="nav-menu-link nav-link">Carreras</a>
+                <ul class="submenu"> <!-- Lista de las sub secciones -->
+                    <li><a href="catalogo.html" class="nav-menu-link nav-link">Lic. Criminalística</a></li>
+                    <li><a href="catalogo.html" class="nav-menu-link nav-link">Lic. Contaduría</a></li>
+                    <li><a href="catalogo.html" class="nav-menu-link nav-link">Lic. Innovacción de Negocios y Mercadotecnia</a></li>
+                    <li><a href="catalogo.html" class="nav-menu-link nav-link">Lic. en Enfermería</a></li>
+                    <li><a href="catalogo.html" class="nav-menu-link nav-link">Lic. Salud Reproductiva y Partería</a></li>
+                    <li><a href="catalogo.html" class="nav-menu-link nav-link">Lic. Terapia Física</a></li>
+                    <li><a href="catalogo.html" class="nav-menu-link nav-link">Lic. en Diseño Digital</a></li>
+                    <li><a href="catalogo.html" class="nav-menu-link nav-link">Ing. en Energías Renovables</a></li>
+                    <li><a href="catalogo.html" class="nav-menu-link nav-link">Ing. Industrial</a></li>
+                    <li><a href="catalogo.html" class="nav-menu-link nav-link">Ing. Mecatrónica</a></li>
+                    <li><a href="catalogo.html" class="nav-menu-link nav-link">Ing. Nanotecnoligía</a></li>
+                    <li><a href="catalogo.html" class="nav-menu-link nav-link">Ing. en Desarrollo y Gestión de Software</a></li>
+                </ul>
+            </li>
+            <li class="nav-menu-item">
+                <a href="catalogo.html" class="nav-menu-link nav-link">Uniformes</a>
+            </li>
+            <li class="nav-menu-item">
+                <a href="#favoritos" class="nav-menu-link nav-link">Favoritos</a>
+            </li>
+            <li class="nav-menu-item">
+                <a href="#" class="nav-menu-link nav-link">Subir Producto</a>
+            </li>
+            <li class="perfil">
+                <a href="perfil.html" aria-label="perfil_Usuario" class=" fa fa-user" ></a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+    
+      <div class="header__cart-avatar">
+        <div class="header__cart">
+          <div class="header__cart--notification">0</div>
+
+        </div>
+      </div>
+
+    <section class="content">
+      <article class="gallery">
+        <div class="gallery__image-container">
+          <img class="gallery__previus" src="./images/icon-previous.svg" alt="previus">
+          <img class="gallery__next" src="./images/icon-next.svg" alt="next">
+        </div>
+        <div class="gallery__thumnails">
+          <img id="1" class="gallery__thumnail" src="./images/sudadera1.png" alt="thumnail"> 
+          <img id="2" class="gallery__thumnail" src="./images/sudadera2.png" alt="thumnail">
+          <img id="3" class="gallery__thumnail" src="./images/sudadera3.png" alt="thumnail">
+          <img id="4" class="gallery__thumnail" src="./images/sudadera4.png" alt="thumnail">
+        </div>
+      </article>
+
+      <article class="details">
+        <h2 class="details__company">HALCOMERCIO</h2>
+        <h2 class="details__title">Fall Limited Edition</h2>
+        <p class="details__description">Sudadera con capucha, cordón, puños acanalados ajustados y un bolsillo frontal tipo canguro, dobladillo cosido recto para mayor libertad de movimiento.
+          Esta sudadera con capucha para hombre está adornada con el logotipo icónico de la marca y el símbolo aplicado en la muñeca izquierda.;Tela de calidad: la sudadera con capucha de peso medio de Champion está hecha de 100% algodón.;Fácil lavado a máquina: lavar en la lavadora y secar en secadora a baja temperatura.</p>
+        <div class="details__prices">
+          <p class="details__now">$125.00 <span class="details__discount">50%</span> </p>
+          <p class="details__before">$250.00</p>
+        </div>
+        <div class="details__product-quantity">
+          <div class="input">
+          
+          </div>
+          <button class="details__button"> <img src="./images/start.svg" alt=""> Add to Favorite</button>
+        </div>
+      </article>
+    </section>
+
+    <!-- inicio cart modal -->
+    <div class="cart-modal">
+      <p class="cart-modal__title">Cart</p>
+      <div class="cart-modal__chekout-container">
+        <div class="cart-modal__details-container">
+          <img class="cart-modal__image" src="./images/sudadera.png" alt="">
+          <div>
+            <p class="cart-modal__product">Autumn Limited Edition...</p>
+            <p class="cart-modal__price">$125 x3 <span>$375.00</span> </p>
+          </div>
+          <img class="cart-modal__delete" src="./images/icon-delete.svg" alt="delete">
+        </div>
+        <button class="cart-modal__chekount" >Checkout</button>
+      </div>
+    </div>
+    <!-- fin cart modal -->
+
+    
+  </main>
+  
+
+  <!-- inicio gallery modal -->
+  <div class="modal-gallery__background">
+    <article class="modal-gallery">
+      <div class="modal-gallery__close-container">
+        <img class="modal-gallery__close" src="./images/icon-close.svg" alt="icon close">
+      </div>
+      <div class="modal-gallery__image-container">
+        <img class="modal-gallery__previus" src="./images/icon-previous.svg" alt="previus">
+        <img class="modal-gallery__next" src="./images/icon-next.svg" alt="next">
+      </div>
+      <div class="modal-gallery__thumnails">
+        <img id="m1" class="modal-gallery__thumnail" src="./images/sudadera.png" alt="thumnail">
+        <img id="m2" class="modal-gallery__thumnail" src="./images/sudadera.png" alt="thumnail">
+        <img id="m3" class="modal-gallery__thumnail" src="./images/sudadera.png" alt="thumnail">
+        <img id="m4" class="modal-gallery__thumnail" src="./images/sudadera.png" alt="thumnail">
+      </div>
+    </article>
+  </div>
+  <!-- fin gallery modal -->
+
+  <script src="./main.js"></script>
+</body>
+</html>
